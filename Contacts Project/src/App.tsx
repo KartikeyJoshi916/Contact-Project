@@ -20,8 +20,7 @@ const App = () => {
         <Navbar />
         <main className="flex basis-4/5 flex-col items-center h-full w-full">
           <h1 className="text-6xl font-cursive py-16">
-            {location.pathname === "/contacts"
-             }
+            {location.pathname === "/contacts"}
           </h1>
           <div className="flex justify-center w-full h-full">
             <Outlet />
